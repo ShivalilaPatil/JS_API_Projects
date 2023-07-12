@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joke Gene</title>
+
+    <!-- iternal CSS -->
+    <style>
+      * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(49, 88, 11);
+        display: grid;
+        place-items: center;
+      }
+
+      .wrapper {
+        width: 450px;
+        /* height: 250px; */
+        background-color: black;
+        padding: 50px 40px;
+        border-radius: 5px;
+        box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+      }
+
+      span {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 100px;
+      }
+
+      #joke {
+        color: aliceblue;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 28px;
+        margin: 30px 0;
+      }
+
+      button {
+        background-color: rgb(185, 243, 131);
+        margin: 0 auto;
+        padding: 12px 25px;
+        display: grid;
+        place-items: center;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <span>&#128514;</span>
+      <p id="joke"></p>
+      <button id="btn">Get Random Joke</button>
+    </div>
+
+    <!-- external JS link -->
+    <script src="app.js"></script>
+  </body>
+</html>
