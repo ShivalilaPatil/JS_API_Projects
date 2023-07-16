@@ -122,3 +122,23 @@ body {
 .navbar li {
   font-weight: 600;
 }
+
+/* ========== responsive ======== */
+
+@media (max-width: 450px) {
+  .search-box {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-box input {
+    width: 80%;
+    padding: 5px;
+  }
+
+  .search-box button {
+    width: 80%;
+    margin: 5px;
+  }
+}
